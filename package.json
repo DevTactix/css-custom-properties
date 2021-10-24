@@ -1,0 +1,15 @@
+{
+  "name": "css-custom-properties",
+  "version": "1.0.0",
+  "description": "CSS Custom Properties - Demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server --port=8080"
+  },
+  "keywords": [],
+  "author": "Thomas Sandberg (DevTactix)",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

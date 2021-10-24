@@ -1,0 +1,75 @@
+:root {
+  --btn-height: 50px;
+  --btn-width: 100px;
+
+  --color-danger: red;
+  --color-info: green;
+  --color-warning: yellow;
+
+  --size-large: 300px;
+  --size-medium: 200px;
+  --size-small: 100px;
+  --size-default: 50px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+body[data-theme="light"] {
+  background-color: white;
+  color: black;
+}
+
+body[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+
+/*
+* Boxes
+*/
+.box {
+  --box-color: var(--color-info);
+  background-color: var(--box-color);
+  --box-size: var(--size-default);
+  height: var(--box-size);
+  width: var(--box-size);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.danger {
+  --box-color: var(--color-danger);
+  --box-size: var(--size-large);
+}
+
+.info {
+  --box-color: var(--color-info);
+  --box-size: var(--size-small);
+}
+
+.warning {
+  --box-color: var(--color-warning);
+  --box-size: var(--size-medium);
+}
+
+/*
+* Buttons
+*/
+.btn-panel {
+  margin: 2em;
+}
+
+.btn {
+  height: var(--btn-height);
+  width: var(--btn-width);
+  margin-right: 1em;
+  border-radius: 8px;
+}
+
+.btn .align-right {
+  float: right;
+}
